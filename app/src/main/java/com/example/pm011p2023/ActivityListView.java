@@ -64,8 +64,8 @@ public class ActivityListView extends AppCompatActivity {
         Arreglopersonas = new ArrayList<String>();
         for(int i = 0; i < listapersonas.size(); i++){
             Arreglopersonas.add(listapersonas.get(i).getId() + " | " +
-                            listapersonas.get(i).getNombres() + " | " +
-                            listapersonas.get(i).getApellidos() + " | ");
+                            listapersonas.get(i).getNombres() + " " +
+                            listapersonas.get(i).getApellidos());
         }
     }
 }
